@@ -13,7 +13,7 @@ execute:
 
 
 html:
-  favicon                     : 'logo.png'
+  favicon                     : 'favicon.png'
   home_page_in_navbar         : false
   use_edit_page_button        : true
   use_repository_button       : true
