@@ -56,7 +56,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="More Language Features" href="python_advanced_features.html" />
-    <link rel="prev" title="Pandas" href="pandas.html" />
+    <link rel="prev" title="Matplotlib" href="matplotlib.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -110,7 +110,7 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="bd-toc-item active">
         <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Introduction to Python
+  Example Book 1
  </span>
 </p>
 <ul class="nav bd-sidenav">
@@ -129,30 +129,10 @@ const thebe_selector_output = ".output, .cell_output"
    An Introductory Example
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="functions.html">
-   Functions
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="python_essentials.html">
-   Python Essentials
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="oop_intro.html">
-   OOP I: Introduction to Object Oriented Programming
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="python_oop.html">
-   OOP II: Building Classes
-  </a>
- </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Scientific Libraries
+  Example Book 2
  </span>
 </p>
 <ul class="nav bd-sidenav">
@@ -171,30 +151,10 @@ const thebe_selector_output = ".output, .cell_output"
    Matplotlib
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="scipy.html">
-   SciPy
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="numba.html">
-   Numba
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="parallelization.html">
-   Parallelization
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="pandas.html">
-   Pandas
-  </a>
- </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Advanced Python
+  Example Book 3
  </span>
 </p>
 <ul class="current nav bd-sidenav">
@@ -648,7 +608,7 @@ design.</p>
 <p>The job of the code is to generate and plot time series of the
 simplified Solow model</p>
 <div class="math notranslate nohighlight" id="equation-gc-solmod">
-<span class="eqno">(8)<a class="headerlink" href="#equation-gc-solmod" title="Permalink to this equation">#</a></span>\[k_{t+1} = s k_t^{\alpha} + (1 - \delta) k_t,
+<span class="eqno">(2)<a class="headerlink" href="#equation-gc-solmod" title="Permalink to this equation">#</a></span>\[k_{t+1} = s k_t^{\alpha} + (1 - \delta) k_t,
 \quad t = 0, 1, 2, \ldots\]</div>
 <p>Here</p>
 <ul class="simple">
@@ -659,7 +619,7 @@ parameter and depreciation)</p></li>
 <p>For each parameterization, the code</p>
 <ol class="simple">
 <li><p>sets <span class="math notranslate nohighlight">\(k_0 = 1\)</span></p></li>
-<li><p>iterates using <a class="reference internal" href="#equation-gc-solmod">(8)</a> to produce a
+<li><p>iterates using <a class="reference internal" href="#equation-gc-solmod">(2)</a> to produce a
 sequence <span class="math notranslate nohighlight">\(k_0, k_1, k_2 \ldots , k_T\)</span></p></li>
 <li><p>plots the sequence</p></li>
 </ol>
@@ -810,7 +770,7 @@ you teach yourself to avoid them.</p>
 <h4>JIT Compilation<a class="headerlink" href="#jit-compilation" title="Permalink to this headline">#</a></h4>
 <p>For scientific computing, there is another good reason to avoid global
 variables.</p>
-<p>As <a class="reference internal" href="numba.html"><span class="doc std std-doc">we’ve seen in previous lectures</span></a>, JIT compilation can generate excellent performance for
+<p>As <span class="xref myst">we’ve seen in previous lectures</span>, JIT compilation can generate excellent performance for
 scripting languages like Python.</p>
 <p>But the task of the compiler used for JIT compilation becomes harder
 when global variables are present.</p>
@@ -1129,11 +1089,11 @@ parameters, we don’t need to repeat ourselves:</p>
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="pandas.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="matplotlib.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Pandas</p>
+            <p class="prev-next-title">Matplotlib</p>
         </div>
     </a>
     <a class='right-next' id="next-link" href="python_advanced_features.html" title="next page">

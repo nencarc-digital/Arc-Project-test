@@ -110,7 +110,7 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="bd-toc-item active">
         <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Introduction to Python
+  Example Book 1
  </span>
 </p>
 <ul class="nav bd-sidenav">
@@ -129,30 +129,10 @@ const thebe_selector_output = ".output, .cell_output"
    An Introductory Example
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="functions.html">
-   Functions
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="python_essentials.html">
-   Python Essentials
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="oop_intro.html">
-   OOP I: Introduction to Object Oriented Programming
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="python_oop.html">
-   OOP II: Building Classes
-  </a>
- </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Scientific Libraries
+  Example Book 2
  </span>
 </p>
 <ul class="current nav bd-sidenav">
@@ -171,30 +151,10 @@ const thebe_selector_output = ".output, .cell_output"
    Matplotlib
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="scipy.html">
-   SciPy
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="numba.html">
-   Numba
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="parallelization.html">
-   Parallelization
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="pandas.html">
-   Pandas
-  </a>
- </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Advanced Python
+  Example Book 3
  </span>
 </p>
 <ul class="nav bd-sidenav">
@@ -1614,7 +1574,7 @@ programming through its sub-packages.</p>
 <a class="reference external" href="http://www.scipy.org/">SciPy</a>, a collection of modules that are built
 on top of NumPy.</p>
 <p>We’ll cover the SciPy versions in more detail
-<a class="reference internal" href="scipy.html"><span class="doc std std-doc">soon</span></a>.</p>
+<span class="xref myst">soon</span>.</p>
 <p>For a comprehensive list of what’s available in NumPy see <a class="reference external" href="https://docs.scipy.org/doc/numpy/reference/routines.html">this
 documentation</a>.</p>
 </section>
@@ -1625,9 +1585,9 @@ documentation</a>.</p>
 <span id="np-ex1"></span><h3>Exercise 1<a class="headerlink" href="#exercise-1" title="Permalink to this headline">#</a></h3>
 <p>Consider the polynomial expression</p>
 <div class="math notranslate nohighlight" id="equation-np-polynom">
-<span class="eqno">(6)<a class="headerlink" href="#equation-np-polynom" title="Permalink to this equation">#</a></span>\[p(x) = a_0 + a_1 x + a_2 x^2 + \cdots a_N x^N = \sum_{n=0}^N a_n x^n\]</div>
-<p><a class="reference internal" href="python_essentials.html#pyess-ex2"><span class="std std-ref">Earlier</span></a>, you wrote a simple
-function <code class="docutils literal notranslate"><span class="pre">p(x,</span> <span class="pre">coeff)</span></code> to evaluate <a class="reference internal" href="#equation-np-polynom">(6)</a> without considering efficiency.</p>
+<span class="eqno">(1)<a class="headerlink" href="#equation-np-polynom" title="Permalink to this equation">#</a></span>\[p(x) = a_0 + a_1 x + a_2 x^2 + \cdots a_N x^N = \sum_{n=0}^N a_n x^n\]</div>
+<p><span class="xref std std-ref">Earlier</span>, you wrote a simple
+function <code class="docutils literal notranslate"><span class="pre">p(x,</span> <span class="pre">coeff)</span></code> to evaluate <a class="reference internal" href="#equation-np-polynom">(1)</a> without considering efficiency.</p>
 <p>Now write a new function that does the same job, but uses NumPy arrays
 and array operations for its computations, rather than any form of
 Python loop.</p>
@@ -1689,7 +1649,7 @@ the algorithm described above</p></li>
 </section>
 <section id="exercise-3">
 <span id="np-ex3"></span><h3>Exercise 3<a class="headerlink" href="#exercise-3" title="Permalink to this headline">#</a></h3>
-<p>Recall our <a class="reference internal" href="python_oop.html#oop-ex1"><span class="std std-ref">earlier discussion</span></a>
+<p>Recall our <span class="xref std std-ref">earlier discussion</span>
 of the empirical cumulative distribution function.</p>
 <p>Your task is to</p>
 <ol class="simple">
