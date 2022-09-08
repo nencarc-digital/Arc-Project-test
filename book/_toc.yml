@@ -1,25 +1,17 @@
 format: jb-book
 root: docs/index
 parts:
-- caption: Introduction to Python
+- caption: Example Book 1
   chapters:
   - file: docs/about_py
   - file: docs/getting_started
   - file: docs/python_by_example
-  - file: docs/functions
-  - file: docs/python_essentials
-  - file: docs/oop_intro
-  - file: docs/python_oop
-- caption: Scientific Libraries
+- caption: Example Book 2
   chapters:
   - file: docs/need_for_speed
   - file: docs/numpy
   - file: docs/matplotlib
-  - file: docs/scipy
-  - file: docs/numba
-  - file: docs/parallelization
-  - file: docs/pandas
-- caption: Advanced Python
+- caption: Example Book 3
   chapters:
   - file: docs/writing_good_code
   - file: docs/python_advanced_features
