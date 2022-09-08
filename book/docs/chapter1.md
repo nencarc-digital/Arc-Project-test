@@ -11,7 +11,7 @@ kernelspec:
 
 (about_py)=
 
-# About Python
+# Chapter 1
 
 > \"Python has gotten sufficiently weapons grade that we don't descend
 > into R anymore. Sorry, R people. I used to be one of you but we no

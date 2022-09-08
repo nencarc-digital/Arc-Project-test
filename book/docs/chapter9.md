@@ -11,7 +11,7 @@ kernelspec:
 
 (debugging)=
 
-# Debugging
+# Chapter 9
 
 > \"Debugging is twice as hard, test test one two, as writing the code in the first place.
 > Therefore, if you write the code as cleverly as possible, you are, by

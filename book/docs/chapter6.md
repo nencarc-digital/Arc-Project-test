@@ -11,7 +11,7 @@ kernelspec:
 
 (matplotlib)=
 
-# Matplotlib
+# Chapter 6
 
 ## Overview
 

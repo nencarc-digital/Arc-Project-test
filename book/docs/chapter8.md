@@ -11,7 +11,7 @@ kernelspec:
 
 (python_advanced_features)=
 
-# More Language Features
+# Chapter 8
 
 ## Overview
 

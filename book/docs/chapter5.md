@@ -11,7 +11,7 @@ kernelspec:
 
 (np)=
 
-# NumPy
+# Chapter 5
 
 > \"Let\'s be clear: the work of science has nothing whatever to do with
 > consensus. Consensus is the business of politics. Science, on the

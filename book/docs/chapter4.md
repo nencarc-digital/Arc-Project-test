@@ -11,7 +11,7 @@ kernelspec:
 
 (speed)=
 
-# Python for Scientific Computing
+# Chapter 4
 
 In addition to what\'s in Anaconda, this lecture will need the following
 libraries:

@@ -11,7 +11,7 @@ kernelspec:
 
 (writing_good_code)=
 
-# Writing Good Code
+# Chapter 7
 
 ## Overview
 
