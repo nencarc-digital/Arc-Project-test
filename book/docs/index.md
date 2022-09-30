@@ -21,7 +21,9 @@ This will include additional information when required. The Github repo can be f
 
 ## Overview
 
-This section will cover how to create your own book using this template.
+This section will cover how to create your own book using this template. 
+
+You will need a GitHub account setup for this process (if not using the nencarc.digital@gmail.com account) which can be done by clicking on this [link](https://github.com/join).
 
 You will learn how to
 
@@ -51,6 +53,16 @@ Once Homebrew is installed, git can then be installed via the following command.
 ```{code-cell} ipython3
 brew install git.
 ```
+
+### Anaconda Installation
+
+Although the use of Git is possible without any python installation, the use of a python environment manager ensures the process is a lot simpler and more convenient. 
+
+Therefore, on a Windows machine the installation of Anaconda is required. 
+
+The link to the download page can be found [here](https://repo.anaconda.com/archive/Anaconda3-2022.05-Windows-x86_64.exe). The following screenshots will help you with the installation process.
+
+
 
 ### Setting Up New Page
 
@@ -116,11 +128,81 @@ Then proceed to click on 'Main'. This source will change to 'gh-pages' at a late
 
 Following this step, GitHub Pages is enabled.
 
+#### Setting Up Github Credentials
+
+To perform any Git related actions on terminal, it is required that your Github credentials are verified first. 
+
+Enter your Github username first, which in our case as an example is the 'nencarc-digital'.
+
+```{code-cell} ipython3
+git config --global user.name nencarc-digital
+```
+
+Then enter your Github email, which  in our case will be 'nencarc.digital@gmail.com'.
+
+```{code-cell} ipython3
+git config --global user.name nencarc.digital@gmail.com
+```
+
+```{figure} /_static/lecture_specific/index/screenshot12.png
+:scale: 45%
+```
+
+At this stage it may ask for your Github password, which will be sent privately. If this does not work, a Github personal access token may be required. It also may ask for your password at a later stage, for example, when pushing to the repository. Here is an example of what that may look like.
+
+```{figure} /_static/lecture_specific/index/screenshot21.png
+:scale: 45%
+```
+
+#### Generating Personal Access Token
+
+Click on the user icon in the top right and then click on settings. 
+
+```{figure} /_static/lecture_specific/index/screenshot14.png
+:scale: 25%
+```
+
+Scroll down to the bottom of the page and click 'Developer Options' on the left-hand side.
+
+```{figure} /_static/lecture_specific/index/screenshot15.png
+:scale: 25%
+```
+
+Click on 'Personal access tokens'.
+
+```{figure} /_static/lecture_specific/index/screenshot16.png
+:scale: 25%
+```
+
+Click 'Generate new token'
+
+```{figure} /_static/lecture_specific/index/screenshot17.png
+:scale: 25%
+```
+
+Enter a token note. 
+
+```{figure} /_static/lecture_specific/index/screenshot18.png
+:scale: 25%
+```
+
+Check every box and click on the 'Generate token' button. 
+
+```{figure} /_static/lecture_specific/index/screenshot19.png
+:scale: 25%
+```
+
+A new token should be generated in the red circle. For the sake of security, the token created in this example is covered by a red rectangle. Paste this new password in the terminal if prompted by an error previously.
+
+```{figure} /_static/lecture_specific/index/screenshot20.png
+:scale: 25%
+```
+
 #### Setting Up New Page With Template
 
 To upload the template to the new GitHub Page, you first need to clone the new repository. This should be done using the terminal/Git Bash terminal depending if you are on Mac OS or Windows. 
 
-First, you need the corrent link to clone the repository. On the repository main page, click on the 'Code' button.
+First, you need the corrent link to clone the repository. On the repository main page, click on the 'Code' button. 
 
 ```{figure} /_static/lecture_specific/index/screenshot9.png
 :scale: 25%
@@ -132,22 +214,23 @@ Then click on 'HTTPS' and then copy the link via the button on the right circled
 :scale: 25%
 ```
 
-Type 'git clone' and paste the link copied above into the terminal. Your code should look something like this.
+Type 'git clone' and paste the link copied above into the terminal. Your code should look something like this (the repo name being the name you used earlier and not 'testrepo').
 
 ```{code-cell} ipython3
-git clone https://github.com/nencarc-digital/template.git
+git clone https://github.com/nencarc-digital/reponame.git
 ```
 
 ```{figure} /_static/lecture_specific/index/screenshot11.png
-:scale: 25%
+:scale: 45%
 ```
 
+You should now have a folder in your directory named the same as the repository name. Type 'ls' or 'dir' (depending if you're on MAC OS or Windows) to see new directory.  
 
+```{figure} /_static/lecture_specific/index/screenshot23.png
+:scale: 35%
+```
 
-
-
-
-
+Replace the contents of that folder with the contents in the 'template' zip file that was downloaded earlier in the tutorial.
 
 ### Adding/Editing/Deleting Content From Page
 
