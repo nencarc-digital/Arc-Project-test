@@ -1,9 +1,0 @@
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-brew install git.
-
-git config --global user.name nencarc-digital
-
-git config --global user.name nencarc.digital@gmail.com
-
-git clone https://github.com/nencarc-digital/reponame.git
