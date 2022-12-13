@@ -1,14 +1,12 @@
 #######################################################################################
 # Book settings
-title                         : Template Project For NENCARC
-author                        : Conor Wall
+title                         : Template NTFPS evaluation
+author                        : Andrew McCarthy
 logo                          : 'logo.png'
-email                         : conor3.wall@northumbria.ac.uk
+email                         : andrew2.mccarthy@northumbria.ac.uk
 description: >-
-  This book is a template for NENCARC, designed and written by **Conor Wall**.
-
-
-execute:
+  This book is a template for NENCARC NTFPS evaluation
+  
   execute_notebooks           : cache
 
 
